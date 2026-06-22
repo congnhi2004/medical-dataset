@@ -1,0 +1,291 @@
+{
+  "conversation_id": "vmc_302ec24c",
+  "chapter": "I",
+  "outline": {
+    "case_outline": {
+      "patient": {
+        "age": 79,
+        "sex": "M",
+        "region": "central"
+      },
+      "specialty": "Sức khoẻ tổng quát",
+      "icd10_chapter": "I",
+      "icd10_primary": {
+        "code": "A41.9",
+        "chapter": "I",
+        "chapter_title_en": "Certain infectious and parasitic diseases",
+        "name_vi": "Nhiễm trùng huyết không xác định",
+        "name_en": "Sepsis, unspecified"
+      },
+      "length_tier": "short",
+      "S": "Bệnh nhân 79 tuổi, nam giới, đến khám vì cảm thấy mệt mỏi, sốt cao và có dấu hiệu khó thở. Bệnh nhân có tiền sử tiểu đường và tăng huyết áp.",
+      "O": "Khám lâm sàng cho thấy bệnh nhân có sốt 38.5°C, huyết áp 130/85 mmHg. Phổi có tiếng rì rào, có thể có dịch. Xét nghiệm CRP tăng cao và procalcitonin cũng ở mức cao.",
+      "A": "Bệnh nhân có thể bị nhiễm trùng huyết (sepsis). Cần xác định nguyên nhân gây bệnh, có thể do vi khuẩn hoặc virus. Cần thực hiện thêm các xét nghiệm như blood culture để tìm nguyên nhân.",
+      "P": "Cho bệnh nhân nhập viện để theo dõi và điều trị. Cần bắt đầu dùng ceftriaxone theo kháng sinh phổ rộng và theo dõi các chỉ số viêm nhiễm. Đặt lịch khám lại sau 48 giờ để đánh giá tình trạng."
+    },
+    "allow_list": [
+      "PCR",
+      "COVID-19",
+      "HIV",
+      "HBV",
+      "HCV",
+      "TB",
+      "ARV",
+      "viral load",
+      "culture",
+      "rapid test",
+      "CRP",
+      "procalcitonin",
+      "sepsis",
+      "dengue",
+      "influenza",
+      "hepatitis B",
+      "hepatitis C",
+      "chickenpox",
+      "measles",
+      "rubella",
+      "malaria",
+      "cholera",
+      "typhoid fever",
+      "paratyphoid fever",
+      "shigellosis",
+      "salmonellosis",
+      "antibiotic",
+      "ceftriaxone"
+    ],
+    "extraction": {
+      "chief_complaint": "Mệt mỏi, sốt cao và khó thở.",
+      "diagnoses": [
+        {
+          "icd10": "A41.9",
+          "vi": "Nhiễm trùng huyết không xác định",
+          "en": "Sepsis, unspecified",
+          "status": "suspected"
+        }
+      ],
+      "medications": [
+        {
+          "name": "ceftriaxone",
+          "dose": "đường tiêm tĩnh mạch",
+          "route": "IV",
+          "frequency": "mỗi 12 giờ"
+        }
+      ],
+      "labs_imaging": [
+        {
+          "name": "CRP",
+          "result": "tăng cao"
+        },
+        {
+          "name": "Procalcitonin",
+          "result": "tăng"
+        }
+      ],
+      "vitals": {
+        "blood_pressure": "130/85 mmHg",
+        "heart_rate": null,
+        "temperature": "38.5°C",
+        "spo2": null
+      },
+      "follow_up": "Khám lại sau 48 giờ để theo dõi tình trạng và điều chỉnh điều trị nếu cần."
+    },
+    "risk_notes": []
+  },
+  "conversation": {
+    "conversation_id": "vmc_302ec24c",
+    "schema_version": "1.1",
+    "audio": {
+      "path": null,
+      "sr": 16000,
+      "duration_s": null,
+      "channels": 1
+    },
+    "speakers": [
+      {
+        "speaker_id": "S1",
+        "role": "doctor",
+        "voice_id": null,
+        "sex": "M",
+        "region": "central",
+        "age": null
+      }
+    ],
+    "turns": [
+      {
+        "idx": 0,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Chào anh, hôm nay anh đến khám vì lý do gì?",
+        "lang_spans": []
+      },
+      {
+        "idx": 1,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Dạ, tôi cảm thấy mệt mỏi, có sốt cao và khó thở.",
+        "lang_spans": []
+      },
+      {
+        "idx": 2,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Anh đã bị sốt bao lâu rồi?",
+        "lang_spans": []
+      },
+      {
+        "idx": 3,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Khoảng 2 ngày rồi, tôi thấy rất khó chịu.",
+        "lang_spans": []
+      },
+      {
+        "idx": 4,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Dạ, tôi sẽ kiểm tra cho anh một chút. Anh cho tôi biết huyết áp và nhiệt độ của mình nhé.",
+        "lang_spans": []
+      },
+      {
+        "idx": 5,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Huyết áp của tôi là 130 trên 85 và nhiệt độ 38.5 độ C.",
+        "lang_spans": []
+      },
+      {
+        "idx": 6,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Cảm ơn anh. Tôi thấy anh có dấu hiệu của nhiễm trùng huyết. Chúng ta sẽ cần làm vài xét nghiệm như CRP và procalcitonin để đánh giá thêm.",
+        "lang_spans": [
+          {
+            "text": "CRP",
+            "char_span": [
+              45,
+              48
+            ]
+          },
+          {
+            "text": "procalcitonin",
+            "char_span": [
+              53,
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "idx": 7,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Nhiễm trùng huyết là gì vậy bác sĩ?",
+        "lang_spans": []
+      },
+      {
+        "idx": 8,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Nhiễm trùng huyết là tình trạng cơ thể phản ứng rất mạnh với nhiễm trùng, có thể gây ra nhiều biến chứng. Chúng ta cần theo dõi và điều trị sớm.",
+        "lang_spans": []
+      },
+      {
+        "idx": 9,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Tôi hiểu rồi, vậy tôi cần làm gì tiếp theo?",
+        "lang_spans": []
+      },
+      {
+        "idx": 10,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Tôi sẽ nhập viện để theo dõi và điều trị cho anh. Chúng ta sẽ bắt đầu dùng kháng sinh ceftriaxone và theo dõi các chỉ số viêm nhiễm.",
+        "lang_spans": [
+          {
+            "text": "ceftriaxone",
+            "char_span": [
+              67,
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "idx": 11,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Dạ, tôi đồng ý. Tôi muốn được điều trị càng sớm càng tốt.",
+        "lang_spans": []
+      },
+      {
+        "idx": 12,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Tốt lắm. Sau 48 giờ, chúng ta sẽ khám lại để xem tình trạng của anh ra sao nhé.",
+        "lang_spans": []
+      },
+      {
+        "idx": 13,
+        "speaker_id": "S2",
+        "start": null,
+        "end": null,
+        "text": "Cảm ơn bác sĩ. Tôi sẽ làm theo.",
+        "lang_spans": []
+      },
+      {
+        "idx": 14,
+        "speaker_id": "S1",
+        "start": null,
+        "end": null,
+        "text": "Không có gì. Chúc anh mau khỏe.",
+        "lang_spans": []
+      }
+    ],
+    "transcript": "Chào anh, hôm nay anh đến khám vì lý do gì? Dạ, tôi cảm thấy mệt mỏi, có sốt cao và khó thở. Anh đã bị sốt bao lâu rồi? Khoảng 2 ngày rồi, tôi thấy rất khó chịu. Dạ, tôi sẽ kiểm tra cho anh một chút. Anh cho tôi biết huyết áp và nhiệt độ của mình nhé. Huyết áp của tôi là 130 trên 85 và nhiệt độ 38.5 độ C. Cảm ơn anh. Tôi thấy anh có dấu hiệu của nhiễm trùng huyết. Chúng ta sẽ cần làm vài xét nghiệm như CRP và procalcitonin để đánh giá thêm. Nhiễm trùng huyết là gì vậy bác sĩ? Nhiễm trùng huyết là tình trạng cơ thể phản ứng rất mạnh với nhiễm trùng, có thể gây ra nhiều biến chứng. Chúng ta cần theo dõi và điều trị sớm. Tôi hiểu rồi, vậy tôi cần làm gì tiếp theo? Tôi sẽ nhập viện để theo dõi và điều trị cho anh. Chúng ta sẽ bắt đầu dùng kháng sinh ceftriaxone và theo dõi các chỉ số viêm nhiễm. Dạ, tôi đồng ý. Tôi muốn được điều trị càng sớm càng tốt. Tốt lắm. Sau 48 giờ, chúng ta sẽ khám lại để xem tình trạng của anh ra sao nhé. Cảm ơn bác sĩ. Tôi sẽ làm theo. Không có gì. Chúc anh mau khỏe.",
+    "meta": {
+      "specialty": "Sức khoẻ tổng quát",
+      "length_tier": "short",
+      "icd10_primary": {
+        "code": "A41.9",
+        "chapter": "I",
+        "chapter_title_en": "Certain infectious and parasitic diseases",
+        "name_vi": "Nhiễm trùng huyết không xác định",
+        "name_en": "Sepsis, unspecified"
+      },
+      "region_mix": "central_doctor_central_patient",
+      "gen_model": "gpt-4o-mini",
+      "prompt_version": "v1.1",
+      "seed": 99041,
+      "tts_model": null,
+      "quality": {
+        "utmos": null,
+        "roundtrip_wer": null
+      },
+      "code_switching": {
+        "cs_target": 30,
+        "cs_ratio_actual": null,
+        "cs_term_count": 2,
+        "cs_terms_used": [
+          "CRP",
+          "ceftriaxone"
+        ]
+      }
+    },
+    "split": "train",
+    "difficulty": "low"
+  }
+}
